@@ -8,5 +8,6 @@ def join_nested_strings(src)
       result_string+=src[index]
     end
     index+=1
+  end
   result_string
 end
