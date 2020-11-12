@@ -4,7 +4,7 @@ def join_nested_strings(src)
   index=0
   result_string=""
   while index<src.length do
-    if src[index].is_int 
+    if src[index].is_a? String  
       result_string+=src[index]
     end
     index+=1
